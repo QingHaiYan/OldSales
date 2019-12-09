@@ -1,0 +1,231 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p, 
+blockquote,th,td{margin:0;padding:0;} 
+input{
+    background: transparent;
+    border: none;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+img{display:block;}
+html{
+	font-size:100px;
+	background:#f3f6fb;
+	
+}
+
+/* 弹性布局 */
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap:wrap ; */
+}
+.flex-column{
+	display: flex;
+	flex-direction:column;
+}
+.flex-wrap{
+	 flex-wrap:wrap; /* 换行*/
+}
+.main-justify-between{
+	justify-content:space-between;  /*在弹性盒对象的 <div> 元素中的各项周围留有空白*/
+}
+.main-justify-center{
+	justify-content:center;
+}
+.main-justify-around{
+	justify-content:space-around;
+}
+
+.cross-align-center{
+	align-items: center;   /*居中对齐弹性盒的各项 <div> 元素*/
+}
+.position-re{
+	position: relative;
+}
+.position-ab{
+	position: absolute;
+}
+.position-fixed{
+	position:fixed;
+}
+.margin-top-sm{
+    margin-top:0.2rem;
+}
+.margin-top-xs{
+    margin-top:0.1rem;
+}
+.padding-t-lg{
+    padding-top:0.4rem;
+}
+.padding-t-xs,.padding-tb-xs,.padding-trbl-xs{
+	padding-top:0.1rem;
+}
+.padding-t-sm,.padding-tb-sm,.padding-trbl-sm{
+	padding-top:0.2rem;
+}
+.padding-r-sm,.padding-lr-sm,.padding-trbl-sm{
+	padding-right:0.2rem;
+}
+.padding-b-sm,.padding-tb-sm,.padding-trbl-sm{
+	padding-bottom:0.2rem;
+}
+.padding-b-xs,.padding-tb-xs,.padding-trbl-xs{
+	padding-bottom:0.1rem;
+}
+.padding-l-sm,.padding-lr-sm,.padding-trbl-sm{
+	padding-left:0.2rem;
+}
+.padding-r-lg,.padding-lr-lg,.padding-trbl-lg{
+	padding-right:1rem;
+}
+.padding-l-lg,.padding-lr-lg,.padding-trbl-lg{
+	padding-left:1rem;
+}
+.margin-l-sm,.margin-lr-sm{
+    margin-left:0.2rem;
+}
+.margin-r-sm,.margin-lr-sm{
+    margin-right:0.2rem;
+}
+.margin-b-sm{
+    margin-bottom: 0.2rem;
+}
+.object-bg{
+	background:#dfe4ef;
+}
+.bj-color{
+	background:#f3f6fb;
+}
+.text-indent{
+	text-indent: 0.2rem;
+}
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left!important;
+}
+.clearfix{*zoom:1;}  
+.clearfix:after{ 
+  content:"."; 
+  display:block; 
+  height:0; 
+  visibility:hidden; 
+  clear:both; 
+}
+/* element样式修改 */
+.el-checkbox__input.is-checked+.el-checkbox__label{
+    color:#fff!important;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: #1166ac!important;
+    border-color: #1166ac!important;
+}
+.el-button.button{
+	background-color:#2789e9!important;
+	border:none!important;
+	padding: 10px 20px!important;
+	border-top-left-radius:0!important;
+	border-bottom-left-radius:0!important;
+}
+.el-button.button i{
+	font-size:20px!important;
+	color:#fff!important;
+}
+.margin-top-sm.el-col-12:nth-of-type(even){
+	padding-right:0!important;
+}
+.input-textarea .el-textarea__inner{
+	min-height:3rem !important;   
+}
+.replay-content .el-textarea__inner{
+	min-height:1.3rem !important;   
+}
+.el-message{
+	font-size:0.16rem;
+}
+.el-message-box{
+	/* width:50%!important; */
+	width: 300px !important;
+}
+.out{
+	font-size:16px!important;
+}
+
+.out .el-button {
+	border:none;
+	background:transparent;
+}
+.font-w{
+	font-weight: 600;
+}
+.absolutePositioning .el-submenu__title{
+	font-size: 16px !important;
+	/* height: 50px !important;  */
+	line-height: 60px!important;
+	background-color: transparent !important;
+}
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{
+	vertical-align: middle;
+	margin-left: 8px;
+	margin-top: -3px;
+}
+.el-menu--popup{
+	min-width: 200px !important;
+}
+.el-menu-item:hover{
+	color:#4c89f2!important;
+	/* color:#ffe7b4!important; */
+	color: #000;
+	background-color: transparent !important;
+}
+.el-submenu__title:hover{
+	/* color:#000!important; */
+	/* color:red!important; */
+	border-bottom-color: #4c89f2 !important;
+	border-bottom-width: 1px;
+	
+}
+.ss .el-menu-item{
+	height: 50px !important; 
+	line-height: 35px!important;
+	
+}
+.el-menu.el-menu--horizontal{
+	border-bottom: none !important;
+}
+.el-menu--popup-bottom-start{
+	margin-top:20px !important;
+}
+/* 2019/09/03日写 */
+.el-message-box__content{
+    height: 200px !important;
+  }
+  .el-icon-close:before{
+	  content: none !important;
+  }
+/* 2019/09/05 */
+ 
+.bg-fff{
+    background-color:#fff;
+}
+.raone-box-shadow {
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.15);
+}
+.raone-radius {
+    border-radius: 8px;
+}
+.el-input__inner{
+	/* width: 0 !important; */
+  }
+.el-form-item__label{
+	text-align: right !important;
+	font-size: 16px !important;
+}
